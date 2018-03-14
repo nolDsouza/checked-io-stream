@@ -1,4 +1,4 @@
-CLASSES = ReadAndReplace.java CheckedIOStream.java Q2.java Q3.java
+CLASSES = ReadAndReplace.java CheckedIOStream.java WriteProg.java ReadProg.java
 
 default:
 	javac -d .  $(CLASSES)

@@ -4,7 +4,7 @@ import java.io.OutputStream;
 import java.io.FileOutputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-public class Q2 {
+public class WriteProg {
 	private static final String OUTPUT_FILE = "output.txt";
 	private static final String CHCKSM_FILE = "checksum.txt";
 

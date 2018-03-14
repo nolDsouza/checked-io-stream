@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.lang.ArrayIndexOutOfBoundsException;
 public class CheckedIOStream {
 	private static final int EXTRA_CHAR = 1;
-	private static final int BUFF_LEN = 3;
+	private static final int BUFF_LEN = 1024;
 	private static final int TERMINATE_VAL = -2;
 	private static final char EOF = (char) -1;
 	private char terminatingChar;
