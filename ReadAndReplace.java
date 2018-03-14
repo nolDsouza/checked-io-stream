@@ -18,6 +18,7 @@ public class ReadAndReplace {
 			input = input.replaceAll(" ", "_");
 			// DataOutputStream can only read byte ot byte[] input
 			oS.write(input.getBytes());
+			// readLine() does not store newline in input
 			oS.write('\n');
 		} 
 		// readLine and write will throw IO exception
